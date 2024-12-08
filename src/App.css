@@ -1,0 +1,490 @@
+/* Home */
+.home-container {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Auction */
+.auction-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.auction-container li {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.auction-container button {
+  background-color: #3897f0;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+/* Profile */
+.profile-container {
+  text-align: left;
+  padding: 20px;
+}
+
+.profile-container button {
+  background-color: #3897f0;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+/* Notification */
+.notification-container {
+  background-color: #f4f4f9;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.notification-container h3 {
+  margin: 0;
+}
+
+/* Footer */
+.footer-container {
+  background-color: #3897f0;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.footer-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-container li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.footer-container a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-container a:hover {
+  text-decoration: underline;
+}
+
+/* General Styles */
+.container {
+  padding: 20px;
+}
+
+button {
+  cursor: pointer;
+}
+
+h2, h3 {
+  margin-bottom: 10px;
+}
+
+/* Header Styles */
+.header-container {
+  background-color: #3897f0;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-container .logo {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.header-container h1 {
+  color: white;
+}
+
+.header-container .auth-links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.header-container .auth-links a:hover {
+  text-decoration: underline;
+}
+
+/* Header Styles */
+.header-container {
+  background-color: #3897f0;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;  /* Make header fixed */
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;  /* Ensures header stays on top */
+}
+
+.header-container .logo {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.header-container h1 {
+  color: white;
+}
+
+.header-container .auth-links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.header-container .auth-links a:hover {
+  text-decoration: underline;
+}
+
+/* Footer Styles */
+.footer-container {
+  background-color: #3897f0;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;  /* Make footer fixed */
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;  /* Ensures footer stays at the bottom */
+}
+
+/* Container for main content */
+.container {
+  padding: 80px 20px 50px;  /* Add padding to account for the fixed header and footer */
+  min-height: 100vh;  /* Ensure content takes full height of the screen */
+}
+
+/* General Styles */
+button {
+  cursor: pointer;
+}
+
+h2, h3 {
+  margin-bottom: 10px;
+}
+
+/* Logout Button Style */
+.logout-button {
+  background-color: #f44336;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.logout-button:hover {
+  background-color: #e53935;
+}
+/* Login Page */
+.login-container {
+  width: 400px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+}
+
+.login-container h2 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.auction-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);  /* 4 equal columns per row */
+  gap: 20px;  /* Space between items */
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.auction-item {
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.auction-item-image {
+  width: 100%;
+  height: auto;
+  object-fit: contain; /* Ensure the entire image is visible */
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #3897f0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #267bb2;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+}
+
+/* Add this to your App.css */
+.header {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-title {
+  font-size: 24px;
+  margin: 0;
+}
+
+.header-links {
+  display: flex;
+  align-items: center;
+}
+
+.header-links span {
+  margin-right: 20px;
+}
+
+.header-links button {
+  padding: 5px 15px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.header-links a {
+  color: white;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.header-links a:hover {
+  text-decoration: underline;
+}
+
+/* Register Page */
+.register-container {
+  width: 400px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.register-container h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #3897f0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #267bb2;
+}
+
+/* Error message styling */
+.error {
+  color: red;
+  font-size: 14px;
+}
+.auction-container {
+  padding: 20px;
+}
+
+.auction-container ul {
+  list-style-type: none;
+}
+
+.auction-container li {
+  margin: 20px 0;
+}
+
+.auction-container img {
+  width: 150px;
+  height: 150px;
+}
+
+.auction-container h3 {
+  font-size: 1.5rem;
+}
+
+.auction-container button {
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.auction-container button:hover {
+  background-color: #0056b3;
+}
+
+.auction-container {
+  padding: 20px;
+}
+
+.auction-container ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Create 3 columns */
+  gap: 20px; /* Space between the items */
+  list-style-type: none;
+}
+
+.auction-container li {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.auction-container img {
+  width: 100%; /* Make image fit inside the item container */
+  height: 150px;
+  object-fit: cover; /* Ensure image doesn't get distorted */
+}
+
+.auction-container h3 {
+  font-size: 1.2rem;
+}
+
+.auction-container button {
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.auction-container button:hover {
+  background-color: #0056b3;
+}
+
+.auction-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.auction-item {
+  width: 30%;
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.auction-item-image {
+  width: 100%;
+  height: auto;
+  object-fit: contain;  /* Ensures the entire image is visible without stretching */
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.auction-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);  /* Create 3 equal columns */
+  gap: 20px;  /* Space between items */
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.auction-item {
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.auction-item-image {
+  width: 100%;
+  height: auto;
+  object-fit: contain; /* Ensure the entire image is visible */
+  max-width: 100%;
+  border-radius: 5px;
+}
+.success-message {
+  color: green;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.error-message {
+  color: red;
+  margin-top: 20px;
+  font-size: 16px;
+}
